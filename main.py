@@ -11,10 +11,13 @@ print("\nYour mission is to pass the tunnel without losing your life.")
 print("There are three ways in front of you?")
 first_option = input('In which way you wanna go? "Left", "Mid" or "Right"?\n').lower()
 if first_option == 'left':
-    print("\nThere are no light inside the tunnel, but you can see that a matchbox is on the floor.")
-    second_option = input('Will you "light" the match or "wait"?\n').lower()
+    print("\nNice! You made it to the next level.")
+    print("There are no light inside the tunnel, but you can see that a matchbox is on the floor.")
+    
+    second_option = input('Type "light" to light the match or type "wait" if you want to wait for some time.\n').lower()
     if second_option == 'wait':
-        print("\nOut of nowhere you are seeing doors with three different colors in front of you.")
+        print("\nAfter waiting sometime, \out of nowhere you are seeing doors with three different colors in front of you.")
+        
         third_option = input('Which door you wanna go? "Red", "Blue" or "Green"\n').lower()
         if third_option == "red" or third_option == "green":
             print("You fall into a hole.")
